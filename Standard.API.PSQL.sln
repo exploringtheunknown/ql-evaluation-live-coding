@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Standard.API.PSQL.Domain", "Standard.API.PSQL.Domain\Standard.API.PSQL.Domain.csproj", "{0ECB5018-A64C-403D-A911-FC164712B023}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Standard.API.PSQL.Service", "Standard.API.PSQL.Service\Standard.API.PSQL.Service.csproj", "{DAA13604-90E5-436B-9C37-86EECBD13665}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Standard.API.PSQL.Infra.Data", "Standard.API.PSQL.Infra.Data\Standard.API.PSQL.Infra.Data.csproj", "{77B3B3F0-15CA-4E9E-A803-682394C2DCED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Standard.API.PSQL.Tests", "Standard.API.PSQL.Tests\Standard.API.PSQL.Tests.csproj", "{C3D59DB6-1933-484D-92D4-88368A33BB99}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Standard.API.PSQL.Application", "Standard.API.PSQL.Application\Standard.API.PSQL.Application.csproj", "{65C77B0B-8891-4C61-B83E-1588A8A958F7}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "standard.api.psql.reactapp", "Standard.API.PSQL.ReactApp\standard.api.psql.reactapp.esproj", "{C6559274-9A8F-4BE1-97EA-D59FBA88968C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0ECB5018-A64C-403D-A911-FC164712B023}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ECB5018-A64C-403D-A911-FC164712B023}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ECB5018-A64C-403D-A911-FC164712B023}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ECB5018-A64C-403D-A911-FC164712B023}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAA13604-90E5-436B-9C37-86EECBD13665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAA13604-90E5-436B-9C37-86EECBD13665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAA13604-90E5-436B-9C37-86EECBD13665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAA13604-90E5-436B-9C37-86EECBD13665}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77B3B3F0-15CA-4E9E-A803-682394C2DCED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77B3B3F0-15CA-4E9E-A803-682394C2DCED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77B3B3F0-15CA-4E9E-A803-682394C2DCED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77B3B3F0-15CA-4E9E-A803-682394C2DCED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3D59DB6-1933-484D-92D4-88368A33BB99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3D59DB6-1933-484D-92D4-88368A33BB99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3D59DB6-1933-484D-92D4-88368A33BB99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3D59DB6-1933-484D-92D4-88368A33BB99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65C77B0B-8891-4C61-B83E-1588A8A958F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65C77B0B-8891-4C61-B83E-1588A8A958F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65C77B0B-8891-4C61-B83E-1588A8A958F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65C77B0B-8891-4C61-B83E-1588A8A958F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6559274-9A8F-4BE1-97EA-D59FBA88968C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6559274-9A8F-4BE1-97EA-D59FBA88968C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6559274-9A8F-4BE1-97EA-D59FBA88968C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C6559274-9A8F-4BE1-97EA-D59FBA88968C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6559274-9A8F-4BE1-97EA-D59FBA88968C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6559274-9A8F-4BE1-97EA-D59FBA88968C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDEB3966-D476-4D75-90C1-82498B4A839F}
+	EndGlobalSection
+EndGlobal

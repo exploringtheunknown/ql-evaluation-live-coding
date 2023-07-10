@@ -1,0 +1,27 @@
+version: '3.3'
+services:
+  postgredb:
+    container_name: postgredb
+    image: postgres:15.3-alpine
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: example
+    volumes:
+      - ./db-data:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+    expose:
+      - 5432
+
+#  api:
+#    container_name: standard-api
+#    platform: linux/amd64
+#    build: .
+#    volumes:
+#      - .:/app
+#    ports:pg
+#      - "80:80"
+#    environment:
+#      - DB_HOST=db
+#    depends_on:
+#      - db
